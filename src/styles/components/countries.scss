@@ -1,0 +1,27 @@
+.radio-container{
+    margin-left:5% ;
+    margin-right:5%;
+    width:auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: black;
+    height: 30px;
+    padding-top: 5px;
+    padding-left:10px ;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.pays{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right:10%;
+    margin-left:10%;
+}
+label{
+    color:white;
+}
+input[type="radio"]{
+    margin-right: 5px;
+}

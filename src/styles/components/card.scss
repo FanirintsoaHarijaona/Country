@@ -1,0 +1,25 @@
+
+img{
+    height: 100px;
+    width:200px;
+    border-radius: 10px;
+}
+.card{
+    .infos{
+        display: none;
+    }
+}
+
+.card:hover{
+    img{
+        display: none;
+    }
+    .infos{
+        display: block;
+        text-align: center;
+        height: 100px;
+        width:200px;
+        border-radius: 10px;
+        border: 0.5px solid rgb(209, 193, 193);
+    }
+}
